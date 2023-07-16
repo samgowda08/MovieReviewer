@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    background-color: rgb(28, 30, 31);
+    color: rgb(169, 151, 151);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.search{
+    width: 700px;
+    margin: 30px auto;
+    display: flex;
+    
+}
+.search-field{
+    width: 650px;
+    padding: 16px;
+    border: 5px solid rgb(48, 46, 46);
+    font-size: 20px;
+    color: black;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.search-field:focus{
+    outline: none;
+}
+.btn{
+    background-color: #9c232d;
+    font-family: black;
+    color: white;
+    font-size: 20px;
+    padding: 16px 30px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    border: none;
+   
+}
+.btn:hover{
+    background-color: rgb(48, 46, 46);
+    color: rgb(169, 151, 151);
+}
+.movie-container{
+    width: 700px;
+    margin: 30px auto;
+    display: flex;
+}
+.poster{
+    width: 280px;
+    border-radius: 12px;
+}
+.details{
+    color: rgba(255, 255, 255, 0.931);
+}
+.details p{
+    color: rgb(212, 212, 212);
+    font-weight: bold;
+    width: 440px;
+    font-size: 17px;
+}
+.value{
+    color: white;
+    font-weight: normal;
+}
+.ratings{
+    background-color: rgb(130, 130, 25);
+    padding: 3px 15px;
+    border-radius: 5px;
+    font-size: 15px;
+    color: black;
+    display: inline-block;
+}

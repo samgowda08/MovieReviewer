@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Movie Reviewer</title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+      </head>
+<body>
+    <div class="container">
+        <div class="search">
+            <input type="text" class="search-field" placeholder="Search details of any movies" id="movieName">
+            <button class="btn" onclick="searchMovie()">Search</button>
+        </div>
+    </div>
+    <div class="movie-container">
+        <div class="details">
+            <h2 id="title"></h2>
+            <p>Released On: <span id="date" class="value"></span></p>
+            <p>Cast: <span id="actors" class="value"></span></p>
+            <p>Director: <span id="director" class="value"></span></p>
+            <p>Genre: <span id="genre" class="value"></span></p>
+            <p>Description: <span id="desc" class="value"></span></p>
+            <p>Box Office Collection: <span id="collection" class="value"></span></p>
+            <p><span id="ratings" class="ratings"></span></p>
+        </div>
+        <div class="">
+            <img src="https://i.ebayimg.com/images/g/nbsAAOSw7fhhHNUD/s-l1200.webp" class="poster" id="poster" alt="">
+
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
