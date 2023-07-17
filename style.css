@@ -43,7 +43,7 @@ body{
     display: flex;
 }
 .poster{
-    margin: 50px 10px;
+    margin: 75px auto;
     width: 340px;
     border-radius: 12px;
 }
