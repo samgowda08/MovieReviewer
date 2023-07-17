@@ -48,6 +48,7 @@ body{
     border-radius: 12px;
 }
 .details{
+  margin: auto 15px;
     color: rgba(255, 255, 255, 0.931);
 }
 .details p{
