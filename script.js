@@ -22,6 +22,7 @@ let awards = document.getElementById('awards');
 let country = document.getElementById('country');
 let runtime = document.getElementById('runtime');
 let writer = document.getElementById('writer');
+let lang = document.getElementById('lang');
 let imdbVotes = document.getElementById('imdbVotes');
 
 function searchMovie(){
@@ -43,6 +44,7 @@ function searchMovie(){
         country.innerText = movieData.Country;
         runtime.innerText = movieData.Runtime;
         writer.innerText = movieData.Writer;
+        lang.innerText = movieData.Language;
         imdbVotes.innerText = movieData.imdbVotes;
         poster.src = movieData.Poster;
 
