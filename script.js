@@ -1,4 +1,4 @@
-let api = 'http://www.omdbapi.com/?apikey=58d4f683&t=';
+let api = 'https://www.omdbapi.com/?apikey=58d4f683&t=';
 
 fetch(api).then((response)=>{
     return response.json()
@@ -18,8 +18,11 @@ let desc = document.getElementById('desc');
 let collection = document.getElementById('collection');
 let ratings = document.getElementById('ratings');
 let genre = document.getElementById('genre');
-
-
+let awards = document.getElementById('awards');
+let country = document.getElementById('country');
+let runtime = document.getElementById('runtime');
+let writer = document.getElementById('writer');
+let imdbVotes = document.getElementById('imdbVotes');
 
 function searchMovie(){
     let movieName = document.getElementById('movieName');
@@ -36,6 +39,11 @@ function searchMovie(){
         ratings.innerText = movieData.imdbRating;
         actors.innerText = movieData.Actors;
         desc.innerText = movieData.Plot;
+        awards.innerText = movieData.Awards;
+        country.innerText = movieData.Country;
+        runtime.innerText = movieData.Runtime;
+        writer.innerText = movieData.Writer;
+        imdbVotes.innerText = movieData.imdbVotes;
         poster.src = movieData.Poster;
 
     })
