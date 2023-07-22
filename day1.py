@@ -17,8 +17,10 @@
 # print(1_s)
 # name = 'hemant'
 #  print(naMe)
-#q = True
+# q = True
 # print(type(q)
+
+# print("Hi\n"*10)
 
 # str1 = '123321'
 # if(str1 == str1[::-1]):
